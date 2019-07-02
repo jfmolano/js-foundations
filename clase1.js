@@ -42,5 +42,13 @@ var people = 2
 var portions = pizza / people
 
 //Class 4 - Functions - - - - - - - - 
+function printAge(n, a){
+    console.log(`${n} tiene ${a} años.`)
+}
+
+printAge(name, age)
+printAge('Vicky', 23)
+printAge(23, 'Carlos')
+printAge('Juan')
 
 
